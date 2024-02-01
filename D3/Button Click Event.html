@@ -1,0 +1,27 @@
+<!Doctype html> 
+<html> 
+    <head> 
+    <script src="https://d3js.org/d3.v6.min.js" charset="utf-8">
+    </script> 
+    </head> 
+
+    <body> 
+        <div> Data Visualization </div> 
+        <div> SVG </div> 
+        <div> HTML </div> 
+        <div> CanvasJS </div> 
+        <button onclick="myFun()">Click Me </button> 
+
+        <script>
+            function myFun()
+            { 
+                d3.selectAll("div")
+                  .each(function (p, j) 
+                 { 
+                  d3.select(this)
+                    .text("DIVs are edited: "+j); 
+                 } ); 
+            } 
+        </script> 
+    </body> 
+</html>

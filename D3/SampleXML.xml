@@ -1,0 +1,20 @@
+<?xml version='1.0' ?> 
+<book> 
+    <list> 
+        <BookName> Data Visualization </BookName> 
+        <Cat> Programming </Cat> 
+        <Price> 2100 </Price> 
+    </list> 
+    
+    <list> 
+        <BookName> Data Visualization </BookName> 
+        <Cat> Theory </Cat> 
+        <Price> 1100 </Price> 
+    </list>
+
+    <list> 
+        <BookName> Java </BookName> 
+        <Cat> Programming </Cat> 
+        <Price> 5100 </Price> 
+    </list> 
+</book>

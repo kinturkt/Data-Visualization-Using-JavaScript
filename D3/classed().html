@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>   
+<head> 
+    <script src = "https://d3js.org/d3.v7.min.js"> 
+    </script> 
+</head>
+<body> 
+<style>
+    .error {
+        color: red
+    }
+</style>
+<body>
+    <p>This is an error.</p>
+
+    <script>
+        d3.select("p")
+          .classed('error', true);
+    </script>
+</body>

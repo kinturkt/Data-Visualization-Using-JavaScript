@@ -1,0 +1,4 @@
+{ "0": {"region": "Northeast", "emp":150, "amount":"115,000"}, 
+  "1": {"region": "Southeast", "emp":150, "amount":"95,000"}, 
+  "2": {"region": "West", "emp":325, "amount":"265,000"}  
+}

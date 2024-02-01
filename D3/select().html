@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>   
+<head> 
+    <script src = "https://d3js.org/d3.v7.min.js"> 
+    </script> 
+</head>
+<body> 
+    <p id="p1">First paragraph</p>
+    <p id="p2">Second paragraph</p>
+
+<script>
+    d3.select("#p2").style("color", "green");
+</script>
+
+
+--------------------------------------------------------------------------------
+
+<br>
+<!-- Selection by using id -->
+<!DOCTYPE html>
+<html>   
+<head> 
+    <script src = "https://d3js.org/d3.v7.min.js"> 
+    </script> 
+</head>
+<body> 
+    <div id = "hello">
+        Hello World by ID!
+        </div>
+        <script> 
+        alert(d3.select("#hello").text());
+        </script>
+</body>
+</html>
+
+--------------------------------------------------------------------------------
+
+
+<br>
+<!-- Selection by using class -->
+<!DOCTYPE html>
+<html>   
+<head> 
+    <script src = "https://d3js.org/d3.v7.min.js"> 
+    </script> 
+</head>
+<body>
+    <div class=”myclass”>
+    Hello world by Class!
+    </div>
+    <script> 
+    alert(d3.select(".myclass").text());
+    </script>
+</body>
+</html>
